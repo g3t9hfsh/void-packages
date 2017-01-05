@@ -1,6 +1,6 @@
 # Template file for 'python-CherryPy'
 pkgname=python-CherryPy
-version=8.2.0
+version=8.7.0
 revision=1
 noarch=yes
 wrksrc="CherryPy-${version}"
@@ -13,7 +13,7 @@ maintainer="Andrea Brancaleoni <miwaxe@gmail.com>"
 license="3-clause-BSD"
 homepage="http://www.cherrypy.org"
 distfiles="${PYPI_SITE}/C/CherryPy/CherryPy-${version}.tar.gz"
-checksum=ce6eac9517139300fea33b051564860873da99768083c52e64ca9962dd26b220
+checksum=cbf418bf46458a67eb841944f2d414c23bf59d090baf2a28704bd67243e6a79f
 alternatives="cherrypy:cherryd:/usr/bin/cherryd2"
 
 post_install() {
